@@ -1,0 +1,20 @@
+{
+  "name": "Pocket",
+  "description": "When you find something you want to view later, put it in Pocket",
+  "version": "2",
+  "app": {
+    "urls": [
+      "http://getpocket.com/a/"
+    ],
+    "launch": {
+      "web_url": "http://getpocket.com/a/queue/"
+    }
+  },
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}
